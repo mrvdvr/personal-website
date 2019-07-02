@@ -1,0 +1,81 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    color:black;
+    font-size: 1.5rem;
+}
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 10%;
+ }
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* sections */
+.colored-section{
+    background-color: grey;
+}
+
+.white-section{
+    background-color: #ffffff;
+    padding: 5%;
+}
+
+/* Navigation Bar */
+
+.nav-item{
+    padding: 20px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+}
+
+/* Title image */
+.title-image{
+    width: 60%;
+    position: relative;
+    border-radius: 100%;
+
+}
+
+/* Education Section */
+#education{
+padding: 100px;
+}
+
+/* form */
+.form-row{
+    margin: 3%;
+    padding: 20px;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+    }
+}
+
